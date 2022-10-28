@@ -147,7 +147,8 @@ nav{
 /* ___________ */
 .DP img{
    height: 200px;
-   border: 3px solid rgb(255, 159, 49);
+   border: 3px solid rgb(23, 188, 194);
+   filter: drop-shadow(6px 5px 5px rgb(168, 217, 230));
    border-radius: 50%;
 }
 
@@ -208,7 +209,7 @@ nav{
     font-family: Arial;
     color: rgb(119, 115, 115);
     font-weight:bold;
-    line-height: 2.5rem;
+    line-height: 2rem;
     padding: 1rem 0;
     padding-bottom: 3rem;
 }
@@ -253,7 +254,7 @@ nav{
 #home::before{
     content: "";
     position: absolute;
-    background: url('../public/images/5651981.jpg') no-repeat center center/cover;
+    background: url('https://wallpaperaccess.com/full/4172653.jpg') no-repeat center center/cover;
     height: 642px;
     top: 0px;
     left: 0px;
