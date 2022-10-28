@@ -77,15 +77,22 @@ nav{
 
 
 .btn a{
+    display: flex;
+    justify-content: center;
     text-decoration: none;
+    text-align: center;
+    margin-left: 36%;
+    
+    width: 30%;
     color: white;
     padding: 16px;
     font-size: 1.03rem;
-    background-color: rgb(255, 159, 49);
+    background-color: rgb(21, 170, 83);
     border-radius: 5px;
     box-shadow: 1px 1px 5px 0px grey;
     
 }
+
 
 .btn a:hover{
     background-color:rgb(252, 173, 82) ;
@@ -198,9 +205,10 @@ nav{
 .txtSection p{
     text-align: center;
     font-size: 1rem;
-    color: rgb(128, 126, 126);
-    font-weight: 300;
-    line-height: 2rem;
+    font-family: Arial;
+    color: rgb(119, 115, 115);
+    font-weight:bold;
+    line-height: 2.5rem;
     padding: 1rem 0;
     padding-bottom: 3rem;
 }
@@ -219,8 +227,9 @@ nav{
 
 }
 
-.india{
+.india a{
     color: rgb(128, 126, 126);
+    text-decoration: none;
 }
 
 .contact {
@@ -230,9 +239,14 @@ nav{
    
 }
 
-.fa-envelope ,.fa-map-marker-alt{
+.fa-envelope ,.fa-phone{
     color:rgb(255, 159, 49) ;
 }
+/* .txtCenter{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+} */
 
 
 
@@ -420,38 +434,48 @@ nav{
 }
 .pole-score{
     height: 100%;
-    background-color: orange;
+    /* background-color: orange; */
     border-radius: 15px;
 }
 .pole-1{
     width: 92%;
+    background-color: rgb(21, 110, 58);
 }
 .pole-2{
-    width: 95%;   
+    width: 95%; 
+    background-color: rgb(21, 110, 58);  
 }
 .pole-3{
     width: 80%;
+    background-color: rgb(21, 110, 58);
 }
 .pole-4{
     width: 30%;
+    background-color: rgb(240, 186, 11);
 }
 .pole-5{
     width: 10%;
+    background-color: rgb(231, 48, 16);
 }
 .pole-6{
     width: 10%;
+    background-color: rgb(231, 48, 16);
 }
 .pole-7{
     width: 10%;
+    background-color: rgb(231, 48, 16);
 }
 .pole-8{
     width: 10%;
+    background-color: rgb(231, 48, 16);
 }
 .pole-9{
     width: 80%;
+    background-color: rgb(21, 110, 58);  
 }
 .pole-10{
     width: 50%;
+    background-color: rgb(240, 186, 11);
 }
 
 .special-p{

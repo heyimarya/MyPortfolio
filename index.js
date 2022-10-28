@@ -13,21 +13,21 @@ const hp2 = document.querySelector(".HP2");
 
 
 first.addEventListener("click",()=>{
-    if(hp1.style.display == "none" && first.innerHTML =="Show Description"){
+    if(hp1.style.display == "none" && first.innerHTML =="About Me"){
         hp1.style.display = "block";
         first.innerHTML = "Show Less";
     }else{
         hp1.style.display = "none"
-        first.innerHTML = "Show Description";
+        first.innerHTML = "About Me";
     }
 })
 second.addEventListener("click",()=>{
-    if(hp2.style.display == "none" && second.innerHTML =="Show Description"){
+    if(hp2.style.display == "none" && second.innerHTML =="About Me"){
         hp2.style.display = "block";
         second.innerHTML = "Show Less";
     }else{
         hp2.style.display = "none"
-        second.innerHTML = "Show Description";
+        second.innerHTML = "About Me";
     }
 })
 
